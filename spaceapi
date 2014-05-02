@@ -33,8 +33,8 @@
             "url": "http://quelab.net/wordpress/feed/"
         },
         "calendar": {
-            "type": "text/calendar",
-            "url": "http://quelab.net/wordpress/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=499647069"
+            "type": "application/rss+xml",
+            "url": "https://www.google.com/calendar/feeds/que.board%40gmail.com/public/basic"
         }
         "flickr":{
         	"type: "application/rss+xml",
