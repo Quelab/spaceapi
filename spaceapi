@@ -31,15 +31,15 @@
         "blog": {
             "type": "application/rss+xml",
             "url": "http://quelab.net/wordpress/feed/"
-        },
+			},
         "calendar": {
             "type": "application/rss+xml",
             "url": "https://www.google.com/calendar/feeds/que.board%40gmail.com/public/basic"
-        },
+			},
         "flickr":{
-        	"type: "application/rss+xml",
+        	"type": "application/rss+xml",
         	"url": "https://secure.flickr.com/photos/quelabnm"
-        }
+			}
     },   
     "projects": [
         "http://github.com/quelab",
