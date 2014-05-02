@@ -1,0 +1,51 @@
+{
+    "api": "0.13",
+    "space": "Quelab",
+    "logo": "http://quelab.net/wordpress/wp-content/uploads/2011/03/quelab_weblogo.png",
+    "url": "http://quelab.net/wordpress/about",
+    "location": {
+        "address": "680 Haines NW, Albuquerque, NM, USA",
+        "lat": 35.103,
+        "lon": -106.653
+    },
+    "contact": {
+        "twitter": "@quelabnm",
+        "email":"info@quelab.net",
+        "phone":"+1 505 750 4522",
+        "foursquare":"4c4b3300bad7a593af2089ab",
+        "issue_email":"geoff@quelab.net"
+    },
+    "issue_report_channels": [
+        "email"
+    ],                                                         
+    "state": {
+        "open": null,
+        "message":"Members Only 24/7"
+    },
+    
+    "cache": {
+        "schedule": "m.05"
+    },
+    
+     "feeds": {
+        "blog": {
+            "type": "application/rss+xml",
+            "url": "http://quelab.net/wordpress/feed/"
+        },
+        "calendar": {
+            "type": "text/calendar",
+            "url": "http://quelab.net/wordpress/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=499647069"
+        }
+        "flickr":{
+        	"type: "application/rss+xml",
+        	"url": "https://secure.flickr.com/photos/quelabnm"
+        }
+    },   
+    "projects": [
+        "http://github.com/quelab",
+        "http://quelab.net/wiki"
+    ],
+    "cache": {
+        "schedule": "m.02"
+    }
+}
