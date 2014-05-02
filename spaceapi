@@ -35,7 +35,7 @@
         "calendar": {
             "type": "application/rss+xml",
             "url": "https://www.google.com/calendar/feeds/que.board%40gmail.com/public/basic"
-        }
+        },
         "flickr":{
         	"type: "application/rss+xml",
         	"url": "https://secure.flickr.com/photos/quelabnm"
