@@ -1,8 +1,8 @@
 {
     "api": "0.13",
     "space": "Quelab",
-    "logo": "http://quelab.net/wordpress/wp-content/uploads/2011/03/quelab_weblogo.png",
-    "url": "http://quelab.net/wordpress/about",
+    "logo": "http://quelab.net/blog/wp-content/uploads/2011/03/quelab_weblogo.png",
+    "url": "http://quelab.net/blog/about",
     "location": {
         "address": "680 Haines NW, Albuquerque, NM, USA",
         "lat": 35.103,
@@ -10,42 +10,42 @@
     },
     "contact": {
         "twitter": "@quelabnm",
-        "email":"info@quelab.net",
-        "phone":"+1 505 750 4522",
-        "foursquare":"4c4b3300bad7a593af2089ab",
-        "issue_email":"geoff@quelab.net"
+        "email": "info@quelab.net",
+        "phone": "+1 505 750 4522",
+        "foursquare": "4c4b3300bad7a593af2089ab",
+        "issue_email": "spaceapi@quelab.net"
     },
     "issue_report_channels": [
         "email"
-    ],                                                         
+    ],
     "state": {
-        "open": null,
-        "message":"Members Only 24/7"
+        "open": false,
+        "message": "Members 24/7",
+        "lastchange": 1428086335
     },
-    
     "cache": {
-        "schedule": "m.05"
+        "schedule": "m.02"
     },
-    
-     "feeds": {
+    "feeds": {
         "blog": {
             "type": "application/rss+xml",
-            "url": "http://quelab.net/wordpress/feed/"
-			},
+            "url": "http://quelab.net/blog/feed/"
+        },
         "calendar": {
             "type": "application/rss+xml",
             "url": "https://www.google.com/calendar/feeds/que.board%40gmail.com/public/basic"
-			},
-        "flickr":{
-        	"type": "application/rss+xml",
-        	"url": "https://secure.flickr.com/photos/quelabnm"
-			}
-    },   
+        },
+        "flickr": {
+            "type": "application/rss+xml",
+            "url": "https://secure.flickr.com/photos/quelabnm"
+        }
+    },
     "projects": [
         "http://github.com/quelab",
         "http://quelab.net/wiki"
     ],
-    "cache": {
-        "schedule": "m.02"
-    }
+    "cam": [
+        ""
+    ],
+    "ext_gist": "676fdf43cc42542666fa"
 }
